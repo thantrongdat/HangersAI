@@ -1,0 +1,102 @@
+body{
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.h1-product{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center; /* Để căn giữa theo chiều ngang */
+letter-spacing: -1px; 
+font-size: 45px;
+line-height: 70px;
+}
+.product{ 
+text-transform: uppercase;
+font-size: 16px;
+line-height: 26.56px;
+text-decoration: none;
+}
+.c-paragraph{
+color: #808095;
+text-align: center; 
+}
+.navbar-line{
+height: 1px; /* Độ rộng của đường line */
+background-image: radial-gradient(circle farthest-side, #9889e5, #fff); /* Gradient từ màu #9889e5 sang #fff */
+background-size: 100% 1px; /* Kích thước gradient theo chiều ngang (100%) và chiều dọc (1px) */
+background-repeat: no-repeat; /* Không lặp lại background */
+margin: 5%;
+}
+
+.SHIRT{
+width: 75%;
+height: auto;
+object-fit: cover; 
+padding-right: 3%;
+}
+.custom-list {
+list-style-type: none; /* Loại bỏ kiểu đánh dấu danh sách mặc định */
+padding: 0; /* Loại bỏ khoảng cách trong danh sách */
+}
+
+.custom-list li {
+color: #636363;
+position: relative; /* Để xác định vị trí của đánh dấu */
+text-align: left;
+margin-left: 10px;
+font-size: 16px;
+padding-left: 20px; /* Khoảng cách bên trái của mỗi mục danh sách */
+margin-bottom: 10px; /* Khoảng cách giữa các mục danh sách */
+}
+
+.custom-list li::before {
+content: '\2022'; /* Sử dụng dấu chấm để làm đánh dấu danh sách */
+position: absolute; /* Để đặt đánh dấu ở vị trí cố định */
+left: 0; /* Đặt vị trí bên trái của đánh dấu */
+color: #007bff; /* Màu của đánh dấu */
+font-weight: bold; /* Làm đánh dấu in đậm */
+font-size: 45px; /* Điều chỉnh kích thước của đánh dấu */
+line-height: 0.5; /* Đảm bảo dấu chấm đứng giữa theo chiều dọc */
+border-right: 10px; /* Thêm khoảng cách giữa dấu và chữ */
+}
+.img-responsive{
+width: 80%;
+height: auto;
+object-fit: cover;  
+}
+.Recognition{
+width: 90%;
+height: auto;
+object-fit: cover; 
+padding-right: 3%;
+}
+.solutions {
+width: 25%;
+height: 48px;
+justify-content: center;
+align-items: center; 
+display: flex;
+}
+ul {
+z-index: -1; /* Đặt giá trị z-index cao hơn 0 để đảm bảo nó nằm phía dưới các phần tử khác */
+position: relative; /* Đảm bảo phần tử có thuộc tính position để sử dụng z-index */
+}
+.btn-primary {
+margin-top: 5%;
+border: 1px solid #acacad; /* Đặt độ rộng viền của nút */ 
+color: #605c5c; /* Đặt màu chữ trắng */
+border-radius: 50px;
+background-color: #eff1f2;
+}
+.product-button {
+width: 16%;
+height: 48px;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+display: flex;
+}
